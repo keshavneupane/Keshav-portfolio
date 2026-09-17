@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: kneupane007/keshav-portfolio:<+pipeline.sequenceId>
+          image: kneupane007/keshav-portfolio:${imageTag}
           ports:
             - containerPort: 80
 ---
